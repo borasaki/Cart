@@ -1,0 +1,143 @@
+body {
+    background-color: #d4c6dc;
+}
+
+.discount {
+    display: block;
+    color: #867287;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 24px;
+    background-color: #e7dbe8;
+    transition: .5s;
+    border-bottom: 8px solid #5c465f;
+}
+
+.discount:hover {
+    color: #e7dbe8;
+    background-color: #867876;
+    transform: translate(0px, 16px);
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    color: white;
+    text-align: center;
+    align-items: flex-end;
+    bottom: 0%;
+    z-index: -10;
+ }
+
+
+.nav a, .nav span {
+    display: inline-block;
+    color: #867287;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 24px;
+    background-color: #e7dbe8;
+    transition: .5s;
+    border-bottom: 8px solid #5c465f;
+
+}
+
+.nav a:hover, .nav span:hover {
+    color: #e7dbe8;
+    background-color: #867876;
+    transform: translate(0px, 16px);
+}
+
+.nav .credit {
+    display: block;
+    transform-origin: center;
+    position: absolute;
+    right: 0px;
+}
+
+.title {
+    text-align: center;
+    color: #5c465f;
+    font-size: 128px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+    width: 124px;
+    height: 166px;
+}
+
+input[type=text] {
+    height: 32px;
+    width: 280px;
+    background-color: #e7dbe8;
+    border-radius: 4px;
+}
+
+input[type=number] {
+    height: 32px;
+    width: 100px;
+    background-color: #e7dbe8;
+    border-radius: 4px;
+}
+
+select {
+    height: 32px;
+    width: 148px;
+    background-color: #e7dbe8;
+    border-radius: 4px;
+}
+
+.pricetag {
+    font-size: 10px;
+    font-style: italic;
+    float: right;
+}
+
+.dish {
+    /* height: auto; */
+    max-height: 36px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #867287;
+    display: 'block';
+    margin: 12px;
+    padding: 8px;
+    background-color: rgb(238, 238, 238);
+    border: 2px #867876 solid;
+    border-radius: 24px;
+    box-shadow: -4px -4px 0 0 #5c465f;
+    overflow: hidden;
+    transition: 4s;
+}
+
+.dish:hover {
+    max-height: 10000px;
+    animation: zoom 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+    from {
+        overflow: hidden;
+    }
+    to {
+        overflow: visible;
+    }
+    
+}
+
+.dish img {
+    border-radius: 8px;
+    transition: .75s;
+}
+
+.dish img:hover {
+    transition: .75s;
+    transform: scale(3);
+}
