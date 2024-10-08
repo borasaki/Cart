@@ -19,7 +19,7 @@ function lum() {
 let daylight = 0;
 function brightness(power = false, sun = false) {
 
-    let tone = document.querySelectorAll(".floor, .window, .desk, .monitor .stand, .monitor .mouse, .monitor .keeb, .legleft, .legright, .bedframe, .books");
+    let tone = document.querySelectorAll(".floor, .window, .desk, .monitor .stand, .monitor .mouse, .monitor .keeb, .legleft, .legright, .bedframe, .books, .cart");
 
     if (power == true && daylight < 80) {
         for (let i = 0; i < tone.length; i++) {
