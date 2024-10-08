@@ -2,23 +2,6 @@ body {
     background-color: #d4c6dc;
 }
 
-.discount {
-    display: block;
-    color: #867287;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
-    padding: 24px;
-    background-color: #e7dbe8;
-    transition: .5s;
-    border-bottom: 8px solid #5c465f;
-}
-
-.discount:hover {
-    color: #e7dbe8;
-    background-color: #867876;
-    transform: translate(0px, 16px);
-}
-
 .footer {
     position: absolute;
     width: 100%;

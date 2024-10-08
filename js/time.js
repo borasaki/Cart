@@ -5,6 +5,7 @@ function getMin() {
     let tMin = min+hMin;
     return tMin;
 }
+
 function getPower() {
     return power;
 }
